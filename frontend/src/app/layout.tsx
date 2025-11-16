@@ -188,7 +188,7 @@ export default function RootLayout({
       <body className="antialiased font-sans bg-background">
         <noscript>
           <iframe
-            src="https://www.googletagmanager.com/ns.html?id=GTM-PCHSN4M2"
+            src="https://www.googletagmanager.com/ns.html?id=GTM-PC"
             height="0"
             width="0"
             style={{ display: 'none', visibility: 'hidden' }}
@@ -212,7 +212,7 @@ export default function RootLayout({
             </ReactQueryProvider>
           </AuthProvider>
           <Analytics />
-          <GoogleAnalytics gaId="G-6ETJFB3PT3" />
+          <GoogleAnalytics gaId="G-6ET" />
           <SpeedInsights />
           <PostHogIdentify />
         </ThemeProvider>

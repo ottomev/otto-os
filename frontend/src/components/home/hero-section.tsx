@@ -264,7 +264,7 @@ export function HeroSection() {
 
                     <div className="flex flex-col items-center justify-center gap-3 sm:gap-4 pt-8 sm:pt-20 max-w-4xl mx-auto pb-7">
                         <h1 className="text-2xl md:text-3xl lg:text-4xl font-medium tracking-tighter text-balance text-center px-2">
-                            What do you want to get done?
+                            What's on your mind?
                         </h1>
                     </div>
 
@@ -274,7 +274,7 @@ export function HeroSection() {
                                 <ChatInput
                                     ref={chatInputRef}
                                     onSubmit={handleChatInputSubmit}
-                                    placeholder="Describe the task you want your Worker to complete..."
+                                    placeholder="Describe the task you want Otto to do..."
                                     loading={isSubmitting}
                                     disabled={isSubmitting}
                                     value={inputValue}

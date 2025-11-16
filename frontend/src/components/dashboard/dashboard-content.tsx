@@ -414,7 +414,7 @@ export function DashboardContent() {
                         <p
                           className="tracking-tight text-2xl md:text-3xl font-normal text-foreground/90"
                         >
-                          What do you want to get done?
+                          What's on your mind?
                         </p>
                       </div>
 

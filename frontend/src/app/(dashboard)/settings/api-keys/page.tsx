@@ -232,7 +232,7 @@ export default function APIKeysPage() {
               <div className="flex-1 space-y-3">
                 <div>
                   <h3 className="text-base font-semibold text-blue-900 dark:text-blue-100 mb-1">
-                    Kortix SDK & API
+                    Otto SDK & API
                   </h3>
                   <p className="text-sm text-blue-700 dark:text-blue-300 leading-relaxed">
                     Our SDK and API are currently in beta. Use these API keys to integrate with our
