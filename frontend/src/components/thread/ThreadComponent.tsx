@@ -804,7 +804,7 @@ export function ThreadComponent({ projectId, threadId, compact = false, configur
   // SEO title update
   useEffect(() => {
     if (projectName) {
-      document.title = `${projectName} | Kortix`;
+      document.title = `${projectName} | Otto`;
 
       const metaDescription = document.querySelector(
         'meta[name="description"]',
@@ -812,13 +812,13 @@ export function ThreadComponent({ projectId, threadId, compact = false, configur
       if (metaDescription) {
         metaDescription.setAttribute(
           'content',
-          `${projectName} - Interactive agent conversation powered by Kortix`,
+          `${projectName} - Interactive agent conversation powered by Ottolabs`,
         );
       }
 
       const ogTitle = document.querySelector('meta[property="og:title"]');
       if (ogTitle) {
-        ogTitle.setAttribute('content', `${projectName} | Kortix`);
+        ogTitle.setAttribute('content', `${projectName} | Otto`);
       }
 
       const ogDescription = document.querySelector(

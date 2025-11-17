@@ -3,8 +3,8 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Mail } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Support - Kortix',
-  description: 'Contact Kortix support.',
+  title: 'Support - Otto',
+  description: 'Contact Otto support.',
 };
 
 export default function SupportPage() {
@@ -21,11 +21,11 @@ export default function SupportPage() {
               For support inquiries, please contact us at:
             </p>
             <a 
-              href="mailto:support@kortix.com" 
+              href="mailto:admin@otto.lk" 
               className="text-lg font-medium text-primary hover:underline inline-flex items-center gap-2"
             >
               <Mail className="w-5 h-5" />
-              support@kortix.com
+              admin@otto.lk
             </a>
           </div>
         </CardContent>

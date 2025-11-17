@@ -20,7 +20,7 @@ export default function CreditsPage() {
           Credits Explained
         </h1>
         <p className="text-lg text-muted-foreground">
-          Everything you need to know about how credits work on Kortix
+          Everything you need to know about how credits work with Otto
         </p>
       </div>
 
@@ -32,7 +32,7 @@ export default function CreditsPage() {
             <h2 className="text-xl font-semibold">Understanding Credits</h2>
           </div>
           <p className="text-muted-foreground leading-relaxed text-base">
-            Credits serve as Kortix's universal currency for platform operations. Every action your AI agents perform—from analyzing data to generating code—consumes credits based on the task's complexity and the resources required.
+            Credits serve as Ottos universal currency for platform operations. Every action your AI agents perform—from analyzing data to generating code—consumes credits based on the task's complexity and the resources required.
           </p>
         </div>
 
@@ -100,7 +100,7 @@ export default function CreditsPage() {
           </div>
 
           <p className="text-muted-foreground leading-relaxed">
-            There are several ways to obtain credits in Kortix:
+            There are several ways to obtain credits in Otto:
           </p>
 
           <div className="space-y-4">
@@ -178,7 +178,7 @@ export default function CreditsPage() {
           </div>
 
           <p className="text-muted-foreground leading-relaxed">
-            Kortix uses two types of credits to give you flexibility in how you manage your usage:
+            Otto uses two types of credits to give you flexibility in how you manage your usage:
           </p>
 
           <div className="grid gap-4 md:grid-cols-2">
@@ -228,7 +228,7 @@ export default function CreditsPage() {
           <Alert>
             <Info className="h-4 w-4" />
             <AlertDescription>
-              <strong>Credit Priority:</strong> When you use Kortix, expiring credits are consumed first. Only after your expiring credits run out will non-expiring credits be used.
+              <strong>Credit Priority:</strong> When you use Otto, expiring credits are consumed first. Only after your expiring credits run out will non-expiring credits be used.
             </AlertDescription>
           </Alert>
         </div>

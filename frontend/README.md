@@ -1,4 +1,4 @@
-# Kortix Frontend
+# Otto App Frontend
 
 ## Quick Setup
 

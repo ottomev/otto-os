@@ -492,16 +492,16 @@ export function useDeleteTemplate() {
 
 export function useKortixTeamTemplates() {
   return useQuery({
-    queryKey: ['secure-mcp', 'kortix-templates-all'],
+    queryKey: ['secure-mcp', 'otto-templates-all'],
     queryFn: async (): Promise<MarketplaceTemplatesResponse> => {
       const supabase = createClient();
       const { data: { session } } = await supabase.auth.getSession();
 
       if (!session) {
-        throw new Error('You must be logged in to view Kortix templates');
+        throw new Error('You must be logged in to view Otto templates');
       }
 
-      const response = await fetch(`${API_URL}/templates/kortix-all`, {
+      const response = await fetch(`${API_URL}/templates/otto-all`, {
         headers: {
           'Authorization': `Bearer ${session.access_token}`,
         },

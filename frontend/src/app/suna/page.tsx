@@ -4,47 +4,46 @@ import { ArrowRight, Github } from 'lucide-react';
 import Image from 'next/image';
 
 export const metadata: Metadata = {
-  title: 'Suna is now Kortix | Kortix Suna - Open Source AI Worker',
-  description: 'Suna has rebranded to Kortix. Kortix (formerly Suna) is the same powerful open source AI assistant and generalist AI worker you know and love, now with a new name and bigger vision.',
+  title: 'Otto | Otto Agent - Open Source AI Orchestrator',
+  description: 'Otto is a powerful open source AI assistant/Generalist AI worker & AI Agent Orchestrator to help you realize your dream.',
   keywords: [
-    'Suna',
-    'Kortix Suna',
-    'Suna AI',
-    'Suna assistant',
-    'Suna.so',
-    'where is Suna',
-    'Kortix',
-    'Suna rebrand',
-    'Suna is now Kortix',
+    'Otto',
+    'Ottolabs',
+    'Otto AI',
+    'Otto Assistant',
+    'Otto.lk',
+    'where is Otto',
+    'Otto Agent',
     'AI assistant',
     'open source AI',
     'generalist AI worker',
+    'AI Orchestrator',
     'AI worker',
     'autonomous AI',
   ],
   openGraph: {
-    title: 'Suna is now Kortix',
-    description: 'Kortix (formerly Suna) - Same powerful open source AI worker, new name.',
+    title: 'Otto',
+    description: 'AI Agent Orchestrator',
     type: 'website',
-    url: 'https://kortix.com/suna',
-    siteName: 'Kortix',
+    url: 'https://app.otto.lk',
+    siteName: 'Otto App',
     images: [
       {
         url: '/banner.png',
         width: 1200,
         height: 630,
-        alt: 'Kortix - Formerly Suna',
+        alt: 'Otto',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Suna is now Kortix',
-    description: 'Kortix (formerly Suna) - Same powerful open source AI worker, new name.',
+    title: 'Otto',
+    description: 'Otto - open source AI Agent Orchestrator.',
     images: ['/banner.png'],
   },
   alternates: {
-    canonical: 'https://kortix.com/suna',
+    canonical: 'https://app.otto.lk/',
   },
   robots: {
     index: true,
@@ -62,17 +61,17 @@ export default function SunaPage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'Organization',
-            name: 'Kortix',
-            alternateName: ['Suna', 'Kortix Suna', 'Suna AI'],
-            url: 'https://kortix.com',
-            logo: 'https://kortix.com/favicon.png',
+            name: 'Otto',
+            alternateName: ['Otto', 'Ottolabs', 'Otto AI'],
+            url: 'https://app.otto.lk',
+            logo: 'https://app.otto.lk/favicon.png',
             sameAs: [
-              'https://github.com/kortix-ai',
-              'https://x.com/kortix',
-              'https://linkedin.com/company/kortix',
+              'https://github.com/OttolabsAI',
+              'https://x.com/OttolabsAI',
+              'https://linkedin.com/company/ottolabs',
             ],
             description:
-              'Kortix (formerly known as Suna) is an open source generalist AI worker that helps you accomplish real-world tasks through natural conversation.',
+              'Otto is an open source generalist AI Agent Orchestrator that helps you accomplish real-world tasks through natural conversation.',
           }),
         }}
       />
@@ -88,13 +87,13 @@ export default function SunaPage() {
                 '@type': 'ListItem',
                 position: 1,
                 name: 'Home',
-                item: 'https://kortix.com',
+                item: 'https://app.otto.lk',
               },
               {
                 '@type': 'ListItem',
                 position: 2,
-                name: 'Suna is now Kortix',
-                item: 'https://kortix.com/suna',
+                name: 'Otto',
+                item: 'https://app.otto.lk',
               },
             ],
           }),
@@ -106,11 +105,11 @@ export default function SunaPage() {
           {/* Hero Section with Logo */}
           <div className="relative z-10 pt-16 sm:pt-24 md:pt-32 mx-auto h-full w-full max-w-6xl flex flex-col items-center justify-center">
             <div className="flex flex-col items-center justify-center gap-3 sm:gap-4 pt-8 sm:pt-20 max-w-4xl mx-auto pb-10">
-              {/* Kortix Symbol with grain texture */}
+              {/* Otto Symbol with grain texture */}
               <div className="relative mb-8 sm:mb-12" style={{ width: '80px', height: '80px' }}>
                 <Image
                   src="/kortix-symbol.svg"
-                  alt="Kortix"
+                  alt="Otto"
                   fill
                   className="object-contain dark:invert"
                   priority
@@ -138,7 +137,7 @@ export default function SunaPage() {
 
               {/* Main Heading */}
               <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-medium tracking-tighter text-balance text-center">
-                Suna is now Kortix
+                Otto
               </h1>
 
               {/* Subheading */}
@@ -153,11 +152,11 @@ export default function SunaPage() {
                 href="/"
                 className="flex h-12 items-center justify-center w-full sm:w-auto px-8 text-center rounded-full bg-primary text-primary-foreground hover:bg-primary/90 transition-all shadow-sm font-medium"
               >
-                Go to Kortix
+                Go to Otto
                 <ArrowRight className="ml-2 size-4" />
               </Link>
               <a
-                href="https://github.com/kortix-ai/suna"
+                href="https://github.com/OttolabsAI/otto"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex h-12 items-center justify-center w-full sm:w-auto px-8 text-center rounded-full border border-border bg-background hover:bg-accent/50 transition-all font-medium"
@@ -177,8 +176,7 @@ export default function SunaPage() {
                   What changed?
                 </h2>
                 <div className="space-y-3 text-base md:text-lg text-muted-foreground font-medium">
-                  <p>Our name changed from Suna to Kortix</p>
-                  <p>Our domain is now kortix.com</p>
+                  <p>Our domain is now Otto.lk</p>
                 </div>
               </div>
 
@@ -206,7 +204,7 @@ export default function SunaPage() {
                   Where to find us?
                 </h2>
                 <p className="text-base md:text-lg text-muted-foreground font-medium">
-                  Our GitHub repository remains at github.com/kortix-ai/suna
+                  Our GitHub remains at github.com/OttolabsAI
                 </p>
               </div>
             </div>
@@ -218,7 +216,7 @@ export default function SunaPage() {
               <div className="relative w-full h-full" style={{ isolation: 'isolate' }}>
                 <Image
                   src="/wordmark.svg"
-                  alt="Kortix"
+                  alt="Otto"
                   fill
                   className="object-contain dark:invert opacity-10"
                   priority
@@ -250,11 +248,7 @@ export default function SunaPage() {
           {/* SEO Footer Text */}
           <div className="relative z-10 text-center max-w-2xl mx-auto pb-20 pt-12 border-t border-border/50">
             <p className="text-sm text-muted-foreground/60 leading-relaxed font-medium">
-              Looking for Suna? You've found us. Kortix is the evolution of Suna — the same open
-              source AI assistant and generalist AI worker, now with a name that better represents
-              our vision. For users searching for "Suna AI", "Suna assistant", "Suna.so", "where is
-              Suna", or "Kortix Suna" — this is the official continuation of the Suna project under
-              the Kortix brand.
+              Looking for Otto? You've found us. Otto is the next evolution of Agents — An AI assistant and generalist AI worker, to help you realize your vision.
             </p>
           </div>
         </div>

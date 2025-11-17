@@ -383,7 +383,7 @@ export function DashboardContent() {
                         : "text-muted-foreground hover:text-foreground"
                     )}
                   >
-                    Kortix Super Worker
+                    Otto Super Worker
                   </button>
                   <button
                     onClick={() => {

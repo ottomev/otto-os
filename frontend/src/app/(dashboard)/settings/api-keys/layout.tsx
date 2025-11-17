@@ -1,11 +1,11 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'API Keys | Kortix',
-  description: 'Manage your API keys for programmatic access to Kortix',
+  title: 'API Keys | Otto',
+  description: 'Manage your API keys for programmatic access to Otto',
   openGraph: {
-    title: 'API Keys | Kortix',
-    description: 'Manage your API keys for programmatic access to Kortix',
+    title: 'API Keys | Otto',
+    description: 'Manage your API keys for programmatic access to Otto',
     type: 'website',
   },
 };

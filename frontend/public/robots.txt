@@ -1,9 +1,9 @@
-# Kortix Robots.txt
+# Otto App Robots.txt
 User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://kortix.com/sitemap.xml
+Sitemap: https://app.otto.lk/sitemap.xml
 
 # Disallow sensitive routes
 Disallow: /api/

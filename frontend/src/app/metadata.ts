@@ -4,14 +4,14 @@ import { siteConfig } from '@/lib/site';
 export const metadata: Metadata = {
   title: siteConfig.name,
   description: siteConfig.description,
-  keywords: ['Kortix', 'Kortix AI', 'Suna', 'Kortix Suna', 'AI', 'Agent', 'Open Source', 'AI assistant', 'generalist AI worker'],
+  keywords: ['Otto', 'Otto AI', 'Suna', 'Ottolabs', 'AI', 'Agent', 'Open Source', 'AI assistant', 'generalist AI worker', 'AI Orchestrator', 'AI Employee'],
   authors: [
     {
-      name: 'Kortix AI Corp',
-      url: 'https://kortix.com',
+      name: 'Ottolabs',
+      url: 'https://otto.lk',
     },
   ],
-  creator: 'Kortix AI Corp',
+  creator: 'OttolabsAI',
   openGraph: {
     type: 'website',
     locale: 'en_US',
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: siteConfig.name,
     description: siteConfig.description,
-    creator: '@kortix',
+    creator: '@ottolabsai',
     images: ['/banner.png'],
   },
   robots: {

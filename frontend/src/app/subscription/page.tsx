@@ -118,8 +118,8 @@ export default function SubscriptionRequiredPage() {
           </div>
           <p className="text-md text-muted-foreground max-w-2xl mx-auto">
             {isTrialExpired
-              ? 'Your 7-day free trial has ended. Choose a plan to continue using Kortix AI.'
-              : 'A subscription is required to use Kortix. Choose the plan that works best for you.'}
+              ? 'Your 7-day free trial has ended. Choose a plan to continue using Otto.'
+              : 'A subscription is required to use Otto. Choose the plan that works best for you.'}
           </p>
         </div>
         <PricingSection
@@ -130,8 +130,8 @@ export default function SubscriptionRequiredPage() {
         <div className="text-center text-sm text-muted-foreground -mt-10">
           <p>
             Questions? Contact us at{' '}
-            <a href="mailto:support@kortix.com" className="underline hover:text-primary">
-              support@kortix.com
+            <a href="mailto:admin@otto.lk" className="underline hover:text-primary">
+              admin@otto.lk
             </a>
           </p>
         </div>

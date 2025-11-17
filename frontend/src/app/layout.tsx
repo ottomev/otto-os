@@ -45,19 +45,22 @@ export const metadata: Metadata = {
     'research assistant',
     'data analysis',
     'task automation',
-    'Kortix',
+    'Otto',
+    'Ottolabs',
+    'AI Agent',
+    'Otto Agent',
     'generalist AI',
   ],
   authors: [
     { 
-      name: 'Kortix Team', 
-      url: 'https://kortix.com' 
+      name: 'Optimized by Ottolabs - Core by Kortix', 
+      url: 'https://otto.lk' 
     }
   ],
-  creator: 'Kortix Team',
-  publisher: 'Kortix Team',
+  creator: 'Ottolabs x Kortix',
+  publisher: 'Ottolabs',
   category: 'Technology',
-  applicationName: 'Kortix',
+  applicationName: 'Otto',
   formatDetection: {
     telephone: false,
     email: false,
@@ -77,27 +80,27 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: 'website',
-    title: 'Kortix - Open Source Generalist AI Worker',
+    title: 'Otto - Open Source Orchestrator Agent',
     description: siteConfig.description,
     url: siteConfig.url,
-    siteName: 'Kortix',
+    siteName: 'Otto',
     locale: 'en_US',
     images: [
       {
         url: '/banner.png',
         width: 1200,
         height: 630,
-        alt: 'Kortix - Open Source Generalist AI Worker',
+        alt: 'Otto - Open Source Generalist AI Worker',
         type: 'image/png',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Kortix - Open Source Generalist AI Worker',
+    title: 'Otto - Open Source Orchestrator Agent',
     description: siteConfig.description,
-    creator: '@kortix',
-    site: '@kortix',
+    creator: '@OttolabsAI',
+    site: '@OttolabsAI',
     images: ['/banner.png'],
   },
   icons: {
@@ -130,21 +133,21 @@ export default function RootLayout({
             __html: JSON.stringify({
               '@context': 'https://schema.org',
               '@type': 'Organization',
-              name: 'Kortix',
-              alternateName: ['Suna', 'Kortix AI'],
-              url: 'https://kortix.com',
-              logo: 'https://kortix.com/favicon.png',
+              name: 'Otto',
+              alternateName: ['Otto', 'Otto AI'],
+              url: 'https://app.otto.lk',
+              logo: 'https://app.otto.lk/favicon.png',
               description: siteConfig.description,
-              foundingDate: '2024',
+              foundingDate: '2023',
               sameAs: [
-                'https://github.com/kortix-ai',
-                'https://x.com/kortix',
-                'https://linkedin.com/company/kortix',
+                'https://github.com/OttolabsAI',
+                'https://x.com/OttolabsAI',
+                'https://linkedin.com/company/OttolabsAI',
               ],
               contactPoint: {
                 '@type': 'ContactPoint',
                 contactType: 'Customer Support',
-                url: 'https://kortix.com',
+                url: 'https://otto.lk',
               },
             }),
           }}
@@ -157,8 +160,8 @@ export default function RootLayout({
             __html: JSON.stringify({
               '@context': 'https://schema.org',
               '@type': 'SoftwareApplication',
-              name: 'Kortix',
-              alternateName: 'Suna',
+              name: 'Otto',
+              alternateName: 'Otto',
               applicationCategory: 'BusinessApplication',
               operatingSystem: 'Web, macOS, Windows, Linux',
               offers: {

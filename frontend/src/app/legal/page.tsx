@@ -94,12 +94,11 @@ function LegalContent() {
                       </h3>
                       <div className="text-muted-foreground mb-6 space-y-2">
                         <p>
-                          <strong>Kortix AI Corp</strong>
+                          <strong>Ottolabs Tech</strong>
                         </p>
-                        <p>701 Tillery Street</p>
-                        <p>Unit 12-2521</p>
-                        <p>Austin, TX 78702</p>
-                        <p>United States</p>
+                        <p>805, Sky Gardens</p>
+                        <p>Rajagiriya</p>
+                        <p>Sri Lanka</p>
                       </div>
 
                       <h3 className="text-lg font-medium tracking-tight">
@@ -109,10 +108,10 @@ function LegalContent() {
                         <p>
                           Email:{' '}
                           <a
-                            href="mailto:info@kortix.com"
+                            href="mailto:admin@otto.lk"
                             className="text-primary hover:underline"
                           >
-                            info@kortix.com
+                            admin@otto.lk
                           </a>
                         </p>
                       </div>
@@ -121,7 +120,7 @@ function LegalContent() {
                         Responsible for Content
                       </h3>
                       <p className="text-muted-foreground mb-6">
-                        Kortix AI Corp is responsible for the content of this
+                        Ottolabs is responsible for the content of this
                         website in accordance with applicable laws.
                       </p>
 
@@ -157,9 +156,8 @@ function LegalContent() {
                       <p className="text-muted-foreground text-balance mb-6">
                         PLEASE READ THESE TERMS OF USE ("AGREEMENT" OR "TERMS OF
                         USE" or "TERMS OF SERVICE" or "TERMS AND CONDITIONS")
-                        CAREFULLY BEFORE USING THE SERVICES OFFERED BY Kortix AI
-                        Corp (701 Tillery Street Unit 12-2521 Austin, Texas 78702,
-                        United States). THIS AGREEMENT SETS FORTH THE LEGALLY
+                        CAREFULLY BEFORE USING THE SERVICES OFFERED BY Ottolabs 
+                        Tech (805, Sky Gardens, Rajagiriya, Sri Lanka). THIS AGREEMENT SETS FORTH THE LEGALLY
                         BINDING TERMS AND CONDITIONS FOR YOUR USE OF THE SUNA
                         WEBSITE AND ALL RELATED SERVICES.
                       </p>
@@ -169,8 +167,7 @@ function LegalContent() {
                       </h3>
                       <ul className="text-muted-foreground space-y-1 mb-6">
                         <li>
-                          "Company" refers to Kortix AI Corp (701 Tillery Street
-                          Unit 12-2521 Austin, Texas 78702, United States).
+                          "Company" refers to Ottolabs Tech (805, Sky Gardens, Rajagiriya, Sri Lanka).
                         </li>
                         <li>
                           "Site" refers to the Suna website, including any related
@@ -216,7 +213,7 @@ function LegalContent() {
                         </li>
                         <li>
                           "Notice Address" refers to the contact address for the
-                          Company, specifically legal@kortix.com
+                          Company, specifically legal@otto.lk
                         </li>
                         <li>
                           "Privacy Policy" refers to the document outlining how
@@ -394,7 +391,7 @@ function LegalContent() {
                         held by others. We respect rights holders internationally,
                         and we ask our users to do the same. If you believe your
                         copyright or trademark is being infringed by the Service,
-                        please write to info@kortix.com and we will process and
+                        please write to info@otto.lk and we will process and
                         investigate your request and take appropriate actions
                         under the Digital Millennium Copyright Act and other
                         applicable intellectual property laws with respect to any
@@ -410,7 +407,7 @@ function LegalContent() {
                         subscription, payable in U.S. dollars, that will
                         automatically renew. You can stop using the Service and
                         cancel your subscription at any time through the website
-                        or by emailing us at info@kortix.com. If you cancel
+                        or by emailing us at info@otto.lk. If you cancel
                         your subscription, you may not receive a refund or credit
                         for any amounts that have already been billed or paid. The
                         Company reserves the right to change its prices at any
@@ -688,10 +685,10 @@ function LegalContent() {
                         For questions regarding the Service, you can get in touch
                         by emailing us at{' '}
                         <a
-                          href="mailto:info@kortix.com"
+                          href="mailto:info@otto.lk"
                           className="text-primary hover:underline"
                         >
-                          info@kortix.com
+                          info@otto.lk
                         </a>
                         .
                       </p>
@@ -912,10 +909,10 @@ function LegalContent() {
                       <p className="text-muted-foreground text-balance">
                         You can get in touch by emailing us at{' '}
                         <a
-                          href="mailto:info@kortix.com"
+                          href="mailto:info@otto.lk"
                           className="text-primary hover:underline"
                         >
-                          info@kortix.com
+                          info@otto.lk
                         </a>
                         .
                       </p>

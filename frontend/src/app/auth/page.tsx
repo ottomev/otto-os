@@ -334,7 +334,7 @@ function LoginContent() {
                     >
                       I accept the{' '}
                       <a 
-                        href="https://www.kortix.com/legal?tab=privacy" 
+                        href="https://app.otto.lk/legal?tab=privacy" 
                         target="_blank"
                         rel="noopener noreferrer"
                         className="hover:underline underline-offset-2 transition-colors"
@@ -344,7 +344,7 @@ function LoginContent() {
                       </a>
                       {' '}and{' '}
                       <a 
-                        href="https://www.kortix.com/legal?tab=terms"
+                        href="https://app.otto.lk/legal?tab=terms"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="hover:underline underline-offset-2 transition-colors"
