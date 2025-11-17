@@ -206,7 +206,7 @@ export const ChatInput = memo(forwardRef<ChatInputHandles, ChatInputProps>(
     const [agentConfigDialog, setAgentConfigDialog] = useState<{ open: boolean; tab: 'instructions' | 'knowledge' | 'triggers' | 'tools' | 'integrations' }>({ open: false, tab: 'instructions' });
     const [mounted, setMounted] = useState(false);
     const [animatedPlaceholder, setAnimatedPlaceholder] = useState('');
-    const [isModeDismissing, setIsModeDismissing] = useState(false);    // Suna Agent Modes feature flag
+    const [isModeDismissing, setIsModeDismissing] = useState(false);    // Otto Agent Modes feature flag
     const ENABLE_SUNA_AGENT_MODES = false;
     const [sunaAgentModes, setSunaAgentModes] = useState<'adaptive' | 'autonomous' | 'chat'>('adaptive');
 
@@ -282,7 +282,7 @@ export const ChatInput = memo(forwardRef<ChatInputHandles, ChatInputProps>(
     const { data: agentsResponse } = useAgents({}, { enabled: isLoggedIn });
     const agents = agentsResponse?.agents || [];
 
-    // Check if selected agent is Suna based on agent data
+    // Check if selected agent is Otto based on agent data
     const selectedAgent = agents.find(agent => agent.agent_id === selectedAgentId);
     const isSunaAgent = selectedAgent?.metadata?.is_suna_default || false;
 
@@ -703,7 +703,7 @@ export const ChatInput = memo(forwardRef<ChatInputHandles, ChatInputProps>(
             </TooltipProvider>
           )}
 
-          {/* Agent Mode Switcher - Only for Suna */}
+          {/* Agent Mode Switcher - Only for Otto */}
           {ENABLE_SUNA_AGENT_MODES && (isStagingMode() || isLocalMode()) && isSunaAgent && (
             <TooltipProvider>
               <div className="flex items-center gap-1 p-0.5 bg-muted/50 rounded-lg">

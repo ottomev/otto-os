@@ -175,7 +175,7 @@ async def create_template_from_agent(
         logger.warning(f"Template creation failed - access denied: {e}")
         raise HTTPException(status_code=403, detail=str(e))
     except SunaDefaultAgentTemplateError as e:
-        logger.warning(f"Template creation failed - Suna default agent: {e}")
+        logger.warning(f"Template creation failed - Otto default agent: {e}")
         raise HTTPException(status_code=400, detail=str(e))
     except Exception as e:
         try:
@@ -422,7 +422,7 @@ async def get_all_kortix_templates(
             error_str = str(e)
         except Exception:
             error_str = f"Error of type {type(e).__name__}"
-        logger.error(f"Error getting all Kortix templates: {error_str}")
+        logger.error(f"Error getting all Ottolabs templates: {error_str}")
         raise HTTPException(status_code=500, detail="Internal server error")
 
 @router.get("/marketplace", response_model=MarketplaceTemplatesResponse)

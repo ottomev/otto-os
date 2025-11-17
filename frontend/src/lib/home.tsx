@@ -37,7 +37,7 @@ export const siteConfig = {
     email: 'support@otto.lk',
     twitter: 'https://x.com/OttolabsAI',
     // discord: 'https://discord.gg/OttolabsAI',
-    github: 'https://github.com/OttolabsAI/Suna',
+    github: 'https://github.com/OttolabsAI/Otto',
     instagram: 'https://instagram.com/OttolabsAI',
   },
   nav: {

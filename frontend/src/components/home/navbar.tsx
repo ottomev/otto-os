@@ -66,7 +66,7 @@ export function Navbar({ tabs }: NavbarProps = {}) {
   const { theme, resolvedTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
   const { user } = useAuth();
-  const { formattedStars, loading: starsLoading } = useGitHubStars('kortix-ai', 'suna');
+  // const { formattedStars, loading: starsLoading } = useGitHubStars('kortix-ai', 'suna');
   const router = useRouter();
   const pathname = usePathname();
 

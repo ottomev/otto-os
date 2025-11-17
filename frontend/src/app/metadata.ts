@@ -4,7 +4,7 @@ import { siteConfig } from '@/lib/site';
 export const metadata: Metadata = {
   title: siteConfig.name,
   description: siteConfig.description,
-  keywords: ['Otto', 'Otto AI', 'Suna', 'Ottolabs', 'AI', 'Agent', 'Open Source', 'AI assistant', 'generalist AI worker', 'AI Orchestrator', 'AI Employee'],
+  keywords: ['Otto', 'Otto AI', 'Ottolabs', 'AI', 'Agent', 'Open Source', 'AI assistant', 'generalist AI worker', 'AI Orchestrator', 'AI Employee'],
   authors: [
     {
       name: 'Ottolabs',

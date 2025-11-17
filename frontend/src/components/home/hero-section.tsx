@@ -57,7 +57,7 @@ export function HeroSection() {
         getCurrentAgent
     } = useAgentSelection();
 
-    // Use centralized Suna modes persistence hook
+    // Use centralized Otto modes persistence hook
     const {
         selectedMode,
         selectedCharts,
@@ -294,7 +294,7 @@ export function HeroSection() {
                         </div>
                     </div>
 
-                    {/* Modes Panel - Below chat input, visible for Suna agent */}
+                    {/* Modes Panel - Below chat input, visible for Otto agent */}
                     {isSunaAgent && (
                         <div className="w-full max-w-3xl mx-auto mt-4 px-2 sm:px-0">
                             <SunaModesPanel

@@ -85,8 +85,8 @@ export async function POST(request: NextRequest) {
         right: 720,
       },
       title: fileName,
-      creator: 'Suna AI',
-      description: 'Document exported from Suna AI',
+      creator: 'Ottolabs',
+      description: 'Document exported from Otto AI',
       font: 'Calibri',
       fontSize: 22,
     };

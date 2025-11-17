@@ -494,7 +494,7 @@ const GuestMenu: React.FC<UnifiedConfigMenuProps> = memo(function GuestMenu() {
                                 <div className="flex-shrink-0">
                                     <KortixLogo size={20} />
                                 </div>
-                                <span className="truncate text-sm font-medium">Suna</span>
+                                <span className="truncate text-sm font-medium">Otto</span>
                                 <ChevronDown size={12} className="opacity-60 flex-shrink-0" />
                             </div>
                         </Button>
