@@ -1,9 +1,9 @@
 from core.prompts.prompt import SYSTEM_PROMPT
 
-# Suna default configuration - simplified and centralized
+# Otto default configuration - simplified and centralized
 SUNA_CONFIG = {
-    "name": "Suna",
-    "description": "Suna is your AI assistant with access to various tools and integrations to help you with tasks across domains.",
+    "name": "Otto",
+    "description": "Otto is your AI assistant designed and developed by Ottolabs to empower and liberate humanity, with access to various tools and integrations to help you with tasks across domains.",
     "model": "claude-haiku-4.5",
     "system_prompt": SYSTEM_PROMPT,
     "configured_mcps": [],

@@ -23,9 +23,9 @@ async def main():
         )
     )
 
-    # Create the MCP tools client with the URL of the MCP server that's accessible by the Suna instance
+    # Create the MCP tools client with the URL of the MCP server that's accessible by the Otto instance
     mcp_tools = kortix.MCPTools(
-        "http://localhost:4000/mcp/",  # Since we are running Suna locally, we can use the local URL
+        "http://localhost:4000/mcp/",  # Since we are running Otto locally, we can use the local URL
         "Kortix",
         allowed_tools=["get_wind_direction"],
     )

@@ -1,8 +1,8 @@
-# Kortix/Suna Codebase Architecture
+# Ottolabs/Otto Codebase Architecture
 
 ## Project Overview
 
-Kortix is an open-source platform for building, managing, and training AI agents. It includes **Suna**, a flagship generalist AI worker agent that demonstrates the platform's capabilities. The codebase consists of four main components working together: a Python/FastAPI backend, a Next.js frontend, isolated Docker execution sandboxes, and a Supabase-powered database layer.
+Kortix is an open-source platform for building, managing, and training AI agents. It includes **Otto**, a flagship generalist AI worker agent that demonstrates the platform's capabilities. The codebase consists of four main components working together: a Python/FastAPI backend, a Next.js frontend, isolated Docker execution sandboxes, and a Supabase-powered database layer.
 
 ## High-Level Architecture
 
@@ -550,8 +550,8 @@ config = {
 
 ```bash
 # 1. Clone repository
-git clone https://github.com/kortix-ai/suna.git
-cd suna
+git clone https://github.com/ottolabsai.git
+cd otto
 
 # 2. Run setup wizard (interactive configuration)
 python setup.py
@@ -670,5 +670,5 @@ npm run dev               # Dev server (port 3000)
 ---
 
 **Last Updated:** November 2025
-**Project:** Kortix (formerly Suna)
-**Repository:** https://github.com/kortix-ai/suna
+**Project:** Otto
+**Repository:** https://github.com/ottolabsai

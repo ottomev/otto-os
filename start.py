@@ -58,13 +58,13 @@ def check_docker_compose_up():
     return len(result.stdout.strip()) > 0
 
 def print_manual_instructions():
-    """Prints instructions for manually starting Suna services."""
+    """Prints instructions for manually starting Otto services."""
     progress = load_progress()
     supabase_setup_method = progress.get("data", {}).get("supabase_setup_method")
     
     print(f"\n{Colors.BLUE}{Colors.BOLD}🚀 Manual Startup Instructions{Colors.ENDC}\n")
 
-    print("To start Suna, you need to run these commands in separate terminals:\n")
+    print("To start Otto, you need to run these commands in separate terminals:\n")
 
     step_num = 1
     
@@ -96,7 +96,7 @@ def print_manual_instructions():
         print(f"{Colors.BOLD}To stop Local Supabase:{Colors.ENDC}")
         print(f"{Colors.CYAN}   cd backend && npx supabase stop{Colors.ENDC}\n")
 
-    print("Once all services are running, access Suna at: http://localhost:3000\n")
+    print("Once all services are running, access Otto at: http://localhost:3000\n")
 
     print(
         f"{Colors.YELLOW}💡 Tip:{Colors.ENDC} You can use '{Colors.CYAN}./start.py{Colors.ENDC}' to start/stop the infrastructure services."
@@ -108,7 +108,7 @@ def main():
 
     if "--help" in sys.argv:
         print("Usage: ./start.py [OPTION]")
-        print("Manage Suna services based on your setup method")
+        print("Manage Otto services based on your setup method")
         print("\nOptions:")
         print("  -f\tForce start containers without confirmation")
         print("  --help\tShow this help message")
@@ -169,7 +169,7 @@ def main():
 
     else:  # docker setup
         print(f"{Colors.BLUE}{Colors.BOLD}Docker Setup Detected{Colors.ENDC}")
-        print("Managing all Suna services with Docker Compose...\n")
+        print("Managing all Otto services with Docker Compose...\n")
 
         force = "-f" in sys.argv
         if force:
@@ -182,10 +182,10 @@ def main():
 
         if is_up:
             action = "stop"
-            msg = "🛑 Stop all Suna services? [y/N] "
+            msg = "🛑 Stop all Otto services? [y/N] "
         else:
             action = "start"
-            msg = "⚡ Start all Suna services? [Y/n] "
+            msg = "⚡ Start all Otto services? [Y/n] "
 
         if not force:
             response = input(msg).strip().lower()
@@ -200,11 +200,11 @@ def main():
 
         if action == "stop":
             subprocess.run(["docker", "compose", "down"], shell=IS_WINDOWS)
-            print(f"\n{Colors.GREEN}✅ All Suna services stopped.{Colors.ENDC}")
+            print(f"\n{Colors.GREEN}✅ All Otto services stopped.{Colors.ENDC}")
         else:
             subprocess.run(["docker", "compose", "up", "-d"], shell=IS_WINDOWS)
-            print(f"\n{Colors.GREEN}✅ All Suna services started.{Colors.ENDC}")
-            print(f"{Colors.CYAN}🌐 Access Suna at: http://localhost:3000{Colors.ENDC}")
+            print(f"\n{Colors.GREEN}✅ All Otto services started.{Colors.ENDC}")
+            print(f"{Colors.CYAN}🌐 Access Otto at: http://localhost:3000{Colors.ENDC}")
 
 
 if __name__ == "__main__":
